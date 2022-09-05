@@ -1,0 +1,22 @@
+{
+  "name": "@cst-tokens/helpers",
+  "description": "Command helpers for use in writing cst-tokens grammars",
+  "version": "0.1.0",
+  "author": "Conrad Buck<conartist6@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "debug": "4.3.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "repository": "github:js-cst-tokens/helpers",
+  "homepage": "https://github.com/js-cst-tokens/helpers",
+  "license": "MIT"
+}
