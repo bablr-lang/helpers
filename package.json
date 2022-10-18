@@ -7,7 +7,11 @@
     "lib"
   ],
   "exports": {
-    ".": "./lib/index.js"
+    ".": "./lib/index.js",
+    "./commands": "./lib/commands.js",
+    "./descriptors": "./lib/descriptors.js",
+    "./generators": "./lib/generators.js",
+    "./utils": "./lib/utils.js"
   },
   "sideEffects": false,
   "dependencies": {
