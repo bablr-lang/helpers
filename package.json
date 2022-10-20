@@ -11,6 +11,7 @@
     "./commands": "./lib/commands.js",
     "./descriptors": "./lib/descriptors.js",
     "./generators": "./lib/generators.js",
+    "./symbols": "./lib/symbols.js",
     "./utils": "./lib/utils.js"
   },
   "sideEffects": false,
