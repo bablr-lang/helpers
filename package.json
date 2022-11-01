@@ -11,8 +11,9 @@
     "./commands": "./lib/commands.js",
     "./descriptors": "./lib/descriptors.js",
     "./generators": "./lib/generators.js",
+    "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js",
-    "./utils": "./lib/utils.js"
+    "./array": "./lib/array.js"
   },
   "sideEffects": false,
   "dependencies": {
