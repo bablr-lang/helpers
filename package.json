@@ -10,7 +10,7 @@
     ".": "./lib/index.js",
     "./commands": "./lib/commands.js",
     "./descriptors": "./lib/descriptors.js",
-    "./generators": "./lib/generators.js",
+    "./meta-productions": "./lib/meta-productions.js",
     "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js",
     "./array": "./lib/array.js"
