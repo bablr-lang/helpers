@@ -11,6 +11,7 @@
     ".": "./lib/index.js",
     "./commands": "./lib/commands.js",
     "./descriptors": "./lib/descriptors.js",
+    "./grammar": "./lib/grammar.js",
     "./iterable": "./lib/iterable.js",
     "./meta-productions": "./lib/meta-productions.js",
     "./shorthand": "./lib/shorthand.js",
@@ -19,11 +20,12 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@cst-tokens/grammar": "^0.1.0",
     "debug": "4.3.4"
   },
   "devDependencies": {
-    "prettier": "^2.6.2",
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "prettier": "^2.6.2"
   },
   "repository": "github:js-cst-tokens/helpers",
   "homepage": "https://github.com/js-cst-tokens/helpers",

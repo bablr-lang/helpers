@@ -1,11 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@cst-tokens/grammar': ^0.1.0
   debug: 4.3.4
   eslint: ^7.32.0
   prettier: ^2.6.2
 
 dependencies:
+  '@cst-tokens/grammar': 0.1.0
   debug: 4.3.4
 
 devDependencies:
@@ -33,6 +35,10 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
+
+  /@cst-tokens/grammar/0.1.0:
+    resolution: {integrity: sha512-XOV0BTMECpE2nDDiRC5H6z+kZ3eO6CrD22wOol4gmQtyM65At0aoqWwYQj7JsNJokSjToPnpyH84fJAqCgkb+Q==}
+    dev: false
 
   /@eslint/eslintrc/0.4.3:
     resolution: {integrity: sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==}
