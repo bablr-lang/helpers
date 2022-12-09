@@ -12,11 +12,9 @@
     "./commands": "./lib/commands.js",
     "./descriptors": "./lib/descriptors.js",
     "./grammar": "./lib/grammar.js",
-    "./iterable": "./lib/iterable.js",
     "./meta-productions": "./lib/meta-productions.js",
     "./shorthand": "./lib/shorthand.js",
-    "./symbols": "./lib/symbols.js",
-    "./array": "./lib/array.js"
+    "./symbols": "./lib/symbols.js"
   },
   "sideEffects": false,
   "dependencies": {
