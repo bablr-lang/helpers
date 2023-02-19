@@ -8,21 +8,21 @@
     "lib"
   ],
   "exports": {
-    ".": "./lib/index.js",
-    "./commands": "./lib/commands.js",
-    "./descriptors": "./lib/descriptors.js",
     "./grammar": "./lib/grammar.js",
-    "./meta-productions": "./lib/meta-productions.js",
+    "./object": "./lib/object.js",
     "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js"
   },
   "sideEffects": false,
   "dependencies": {
-    "@cst-tokens/grammar": "^0.1.0",
+    "@cst-tokens/grammar": "^0.2.0",
     "debug": "4.3.4"
   },
   "devDependencies": {
+    "enhanced-resolve": "^5.12.0",
     "eslint": "^7.32.0",
+    "eslint-import-resolver-enhanced-resolve": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
   "repository": "github:js-cst-tokens/helpers",
