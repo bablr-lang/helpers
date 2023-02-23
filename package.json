@@ -9,6 +9,7 @@
   ],
   "exports": {
     "./grammar": "./lib/grammar.js",
+    "./metaproductions": "./lib/metaproductions.js",
     "./object": "./lib/object.js",
     "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js"
