@@ -16,7 +16,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@cst-tokens/grammar": "github:js-cst-tokens/grammar#7e9148b787d5e21703bb4f65f5c7de4fdcc50342",
+    "@cst-tokens/grammar": "0.3.0",
     "debug": "4.3.4"
   },
   "devDependencies": {
