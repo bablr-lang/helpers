@@ -8,7 +8,8 @@
     "lib"
   ],
   "exports": {
-    "./grammar": "./lib/grammar.js",
+    "./grammar/node": "./lib/grammar/node.js",
+    "./grammar/token": "./lib/grammar/token.js",
     "./metaproductions": "./lib/metaproductions.js",
     "./object": "./lib/object.js",
     "./shorthand": "./lib/shorthand.js",
