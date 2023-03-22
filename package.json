@@ -12,12 +12,15 @@
     "./grammar/token": "./lib/grammar/token.js",
     "./metaproductions": "./lib/metaproductions.js",
     "./object": "./lib/object.js",
+    "./productions": "./lib/productions.js",
+    "./regex": "./lib/regex.js",
     "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js"
   },
   "sideEffects": false,
   "dependencies": {
-    "@cst-tokens/grammar": "^0.3.2"
+    "@cst-tokens/grammar": "0.4.0",
+    "escape-string-regexp": "5.0.0"
   },
   "devDependencies": {
     "enhanced-resolve": "^5.12.0",
