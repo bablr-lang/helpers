@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@cst-tokens/grammar': 0.4.1
+  '@cst-tokens/grammar': 0.4.2
   enhanced-resolve: ^5.12.0
   escape-string-regexp: 5.0.0
   eslint: ^7.32.0
@@ -10,7 +10,7 @@ specifiers:
   prettier: ^2.6.2
 
 dependencies:
-  '@cst-tokens/grammar': 0.4.1
+  '@cst-tokens/grammar': 0.4.2
   escape-string-regexp: 5.0.0
 
 devDependencies:
@@ -42,8 +42,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@cst-tokens/grammar/0.4.1:
-    resolution: {integrity: sha512-e4Ld37xV87dw/BHFHTKoRKF6wCBXOGFHrcrefDoJRrAIg8GpzOsULgmNvbczr1NieK2IkCQJ3VpZPQu+b0jMeg==}
+  /@cst-tokens/grammar/0.4.2:
+    resolution: {integrity: sha512-ghRcyD/atskMb3S23ToCNkdJbe97gW3eISIg57cKwSHgGdrMtk9ceDI5Nh2EdfxwihyLtdRamtjqHrJqIXiEqQ==}
     dev: false
 
   /@eslint/eslintrc/0.4.3:

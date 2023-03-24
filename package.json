@@ -19,7 +19,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@cst-tokens/grammar": "0.4.1",
+    "@cst-tokens/grammar": "0.4.2",
     "escape-string-regexp": "5.0.0"
   },
   "devDependencies": {
