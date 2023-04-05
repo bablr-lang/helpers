@@ -10,7 +10,9 @@
   "exports": {
     "./grammar/node": "./lib/grammar/node.js",
     "./grammar/token": "./lib/grammar/token.js",
-    "./metaproductions": "./lib/metaproductions.js",
+    "./ast": "./lib/ast.js",
+    "./enhancers": "./lib/enhancers.js",
+    "./iterable": "./lib/iterable.js",
     "./object": "./lib/object.js",
     "./productions": "./lib/productions.js",
     "./regex": "./lib/regex.js",
@@ -19,7 +21,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@cst-tokens/grammar": "0.4.2",
+    "@cst-tokens/grammar": "0.5.0",
     "escape-string-regexp": "5.0.0"
   },
   "devDependencies": {
