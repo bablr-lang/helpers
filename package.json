@@ -8,12 +8,13 @@
     "lib"
   ],
   "exports": {
-    "./grammar/node": "./lib/grammar/node.js",
-    "./grammar/token": "./lib/grammar/token.js",
     "./ast": "./lib/ast.js",
     "./enhancers": "./lib/enhancers.js",
+    "./grammar": "./lib/grammar.js",
     "./iterable": "./lib/iterable.js",
+    "./matchable": "./lib/matchable.js",
     "./object": "./lib/object.js",
+    "./parser": "./lib/parser.js",
     "./productions": "./lib/productions.js",
     "./regex": "./lib/regex.js",
     "./shorthand": "./lib/shorthand.js",
