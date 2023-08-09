@@ -1,7 +1,7 @@
 {
-  "name": "@cst-tokens/helpers",
-  "description": "Command helpers for use in writing cst-tokens grammars",
-  "version": "0.14.0",
+  "name": "@bablr/helpers",
+  "description": "Command helpers for use in writing BABLR grammars",
+  "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
   "type": "module",
   "files": [
@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:js-cst-tokens/helpers",
-  "homepage": "https://github.com/js-cst-tokens/helpers",
+  "repository": "github:bablr-lang/helpers",
+  "homepage": "https://github.com/bablr-lang/helpers",
   "license": "MIT"
 }
