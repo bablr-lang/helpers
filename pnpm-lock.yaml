@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@cst-tokens/grammar': 0.5.0
+  '@bablr/grammar': github:bablr-lang/grammar#a94f47ea04eace3c036aee353d641875cfce311b
   enhanced-resolve: ^5.12.0
   escape-string-regexp: 5.0.0
   eslint: ^7.32.0
@@ -10,7 +10,7 @@ specifiers:
   prettier: ^2.6.2
 
 dependencies:
-  '@cst-tokens/grammar': link:../grammar
+  '@bablr/grammar': github.com/bablr-lang/grammar/a94f47ea04eace3c036aee353d641875cfce311b
   escape-string-regexp: 5.0.0
 
 devDependencies:
@@ -1342,3 +1342,9 @@ packages:
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
+
+  github.com/bablr-lang/grammar/a94f47ea04eace3c036aee353d641875cfce311b:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/grammar/tar.gz/a94f47ea04eace3c036aee353d641875cfce311b}
+    name: '@bablr/grammar'
+    version: 0.0.0
+    dev: false

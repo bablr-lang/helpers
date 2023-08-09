@@ -22,7 +22,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@cst-tokens/grammar": "0.5.0",
+    "@bablr/grammar": "github:bablr-lang/grammar#a94f47ea04eace3c036aee353d641875cfce311b",
     "escape-string-regexp": "5.0.0"
   },
   "devDependencies": {
