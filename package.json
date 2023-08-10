@@ -10,7 +10,6 @@
   "exports": {
     "./ast": "./lib/ast.js",
     "./enhancers": "./lib/enhancers.js",
-    "./grammar": "./lib/grammar.js",
     "./iterable": "./lib/iterable.js",
     "./matchable": "./lib/matchable.js",
     "./object": "./lib/object.js",
@@ -22,7 +21,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/grammar": "github:bablr-lang/grammar#a94f47ea04eace3c036aee353d641875cfce311b",
+    "@bablr/grammar": "github:bablr-lang/grammar#fa62bc72a6f4515b96fafc90c4cb64c407ef8033",
     "escape-string-regexp": "5.0.0"
   },
   "devDependencies": {
