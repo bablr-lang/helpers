@@ -9,22 +9,22 @@
   ],
   "exports": {
     "./ast": "./lib/ast.js",
+    "./decorators": "./lib/decorators.js",
     "./enhancers": "./lib/enhancers.js",
-    "./iterable": "./lib/iterable.js",
     "./matchable": "./lib/matchable.js",
     "./object": "./lib/object.js",
-    "./parser": "./lib/parser.js",
     "./productions": "./lib/productions.js",
-    "./regex": "./lib/regex.js",
     "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js"
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/grammar": "github:bablr-lang/grammar#fa62bc72a6f4515b96fafc90c4cb64c407ef8033",
-    "escape-string-regexp": "5.0.0"
+    "@bablr/miniparser": "github:bablr-lang/miniparser#6442bc64713d1cb4661a061d567cdceaf36be32c",
+    "@bablr/miniparser-language-cstml-matchable": "github:bablr-lang/miniparser-language-cstml-matchable#ffa2e7c824860091b759b281f81ed0994d277525",
+    "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^7.32.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
