@@ -8,10 +8,9 @@
     "lib"
   ],
   "exports": {
-    "./ast": "./lib/ast.js",
     "./decorators": "./lib/decorators.js",
     "./enhancers": "./lib/enhancers.js",
-    "./matchable": "./lib/matchable.js",
+    "./languages": "./lib/languages.js",
     "./object": "./lib/object.js",
     "./productions": "./lib/productions.js",
     "./shorthand": "./lib/shorthand.js",
@@ -19,8 +18,9 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/miniparser": "github:bablr-lang/miniparser#6442bc64713d1cb4661a061d567cdceaf36be32c",
-    "@bablr/miniparser-language-cstml-matchable": "github:bablr-lang/miniparser-language-cstml-matchable#ffa2e7c824860091b759b281f81ed0994d277525",
+    "@bablr/miniparser": "github:bablr-lang/miniparser#3d03c5ff48ebdc321a05287eb6ae4d26aed32416",
+    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#e0503f8128dd908e019b9c1e6bbdb3ed0f1fc0cf",
+    "@bablr/miniparser-language-nonbacktracking-js-regex": "github:bablr-lang/miniparser-language-nonbacktracking-js-regex#4bb4de83d060b2e1caf7d9c9646b8780f87cced8",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
