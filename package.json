@@ -18,13 +18,13 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/miniparser": "github:bablr-lang/miniparser#3d03c5ff48ebdc321a05287eb6ae4d26aed32416",
-    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#e0503f8128dd908e019b9c1e6bbdb3ed0f1fc0cf",
+    "@bablr/miniparser": "github:bablr-lang/miniparser#558833819c9d071e85f038517499463e2c7e1baf",
+    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#5e55c6bc3b022ea67bdb0de819c56e3c69977e8d",
     "@bablr/miniparser-language-nonbacktracking-js-regex": "github:bablr-lang/miniparser-language-nonbacktracking-js-regex#4bb4de83d060b2e1caf7d9c9646b8780f87cced8",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
-    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^7.32.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
