@@ -18,8 +18,8 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/miniparser": "github:bablr-lang/miniparser#558833819c9d071e85f038517499463e2c7e1baf",
-    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#5e55c6bc3b022ea67bdb0de819c56e3c69977e8d",
+    "@bablr/miniparser": "github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca",
+    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#274540b3bd22bacf0275f4227ffeff1ecb085b8d",
     "@bablr/miniparser-language-nonbacktracking-js-regex": "github:bablr-lang/miniparser-language-nonbacktracking-js-regex#4bb4de83d060b2e1caf7d9c9646b8780f87cced8",
     "iter-tools-es": "^7.5.3"
   },
