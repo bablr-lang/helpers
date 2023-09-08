@@ -19,7 +19,7 @@
   "sideEffects": false,
   "dependencies": {
     "@bablr/miniparser": "github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca",
-    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#274540b3bd22bacf0275f4227ffeff1ecb085b8d",
+    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#55ce952265cc807d8a4f5085fff0767b37245146",
     "@bablr/miniparser-language-nonbacktracking-js-regex": "github:bablr-lang/miniparser-language-nonbacktracking-js-regex#4bb4de83d060b2e1caf7d9c9646b8780f87cced8",
     "iter-tools-es": "^7.5.3"
   },
