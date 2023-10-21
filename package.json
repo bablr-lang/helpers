@@ -10,7 +10,6 @@
   "exports": {
     "./decorators": "./lib/decorators.js",
     "./enhancers": "./lib/enhancers.js",
-    "./languages": "./lib/languages.js",
     "./object": "./lib/object.js",
     "./productions": "./lib/productions.js",
     "./shorthand": "./lib/shorthand.js",
@@ -18,9 +17,8 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/miniparser": "github:bablr-lang/miniparser#3d3a0e2a2d7985f6a2d7857c62eccda72e7080ca",
-    "@bablr/miniparser-language-spamex": "github:bablr-lang/miniparser-language-spamex#55ce952265cc807d8a4f5085fff0767b37245146",
-    "@bablr/miniparser-language-nonbacktracking-js-regex": "github:bablr-lang/miniparser-language-nonbacktracking-js-regex#4bb4de83d060b2e1caf7d9c9646b8780f87cced8",
+    "@bablr/boot": "github:bablr-lang/boot#dadba863d3c54eeb15d6e48c4228e599c703bc2f",
+    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#f173c649da4974f8583cfdf9bd105cd1d0b6c788",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
