@@ -12,18 +12,30 @@
     "./enhancers": "./lib/enhancers.js",
     "./object": "./lib/object.js",
     "./path": "./lib/path.js",
-    "./productions": "./lib/productions.js",
+    "./productions": "./lib/productions.generated.js",
     "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js"
   },
   "sideEffects": false,
+  "scripts": {
+    "generate": "babel lib/productions.js --out-file lib/productions.generated.js",
+    "clean": "rm lib/productions.generated.js"
+  },
   "dependencies": {
     "@bablr/boot": "github:bablr-lang/boot#c131297136211c5ed8ea50601a909835369b0f72",
     "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#8d35611ba68ef2ea33180cabd743966ce508794a",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
+    "@babel/cli": "7.22.15",
+    "@babel/core": "7.22.20",
+    "@babel/plugin-proposal-decorators": "7.22.15",
+    "@babel/plugin-transform-modules-commonjs": "^7.23.0",
+    "@babel/plugin-transform-runtime": "^7.22.15",
+    "@babel/runtime": "^7.23.2",
+    "@bablr/boot": "github:bablr-lang/boot#332124bfd3c6204dd886ee20821aaaac4cf2140c",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
+    "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^7.32.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
