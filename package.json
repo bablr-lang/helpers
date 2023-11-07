@@ -14,7 +14,8 @@
     "./path": "./lib/path.js",
     "./productions": "./lib/productions.generated.js",
     "./shorthand": "./lib/shorthand.js",
-    "./symbols": "./lib/symbols.js"
+    "./symbols": "./lib/symbols.js",
+    "./token": "./lib/token.js"
   },
   "sideEffects": false,
   "scripts": {
@@ -23,7 +24,7 @@
   },
   "dependencies": {
     "@bablr/boot": "github:bablr-lang/boot#c131297136211c5ed8ea50601a909835369b0f72",
-    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#8d35611ba68ef2ea33180cabd743966ce508794a",
+    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#f0aaa5e079d82fced08f28f8ae1bfaecf1b54e86",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
