@@ -10,6 +10,7 @@
   "exports": {
     "./decorators": "./lib/decorators.js",
     "./enhancers": "./lib/enhancers.js",
+    "./grammar": "./lib/grammar.js",
     "./object": "./lib/object.js",
     "./path": "./lib/path.js",
     "./productions": "./lib/productions.generated.js",
@@ -23,8 +24,8 @@
     "clean": "rm lib/productions.generated.js"
   },
   "dependencies": {
-    "@bablr/boot": "github:bablr-lang/boot#c131297136211c5ed8ea50601a909835369b0f72",
-    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#f0aaa5e079d82fced08f28f8ae1bfaecf1b54e86",
+    "@bablr/boot": "github:bablr-lang/boot#45d9f4a10d18abc2e07619d39b8f87ebc6c9bacf",
+    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#1551598bc7257481089d06839eeec2e26885bbb2",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
