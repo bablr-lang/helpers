@@ -16,7 +16,8 @@
     "./productions": "./lib/productions.generated.js",
     "./shorthand": "./lib/shorthand.js",
     "./symbols": "./lib/symbols.js",
-    "./token": "./lib/token.js"
+    "./token": "./lib/token.js",
+    "./trivia": "./lib/trivia.js"
   },
   "sideEffects": false,
   "scripts": {
@@ -25,7 +26,7 @@
   },
   "dependencies": {
     "@bablr/boot": "0.1.1",
-    "@bablr/boot-helpers": "0.1.1",
+    "@bablr/boot-helpers": "0.1.2",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
