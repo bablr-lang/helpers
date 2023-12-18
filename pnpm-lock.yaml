@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@bablr/boot':
-    specifier: 0.1.8
-    version: 0.1.8
+    specifier: 0.1.9
+    version: 0.1.9
   '@bablr/boot-helpers':
     specifier: 0.1.3
     version: 0.1.3
@@ -464,8 +464,8 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: false
 
-  /@bablr/boot@0.1.8:
-    resolution: {integrity: sha512-dWOOtXJTki/L9AtIFfJgI08Ry6NGXqqbbSr3ON70r0289BvvJmu/Un/903fyS2k636IKSBrmoXgESVJSFD5q2w==}
+  /@bablr/boot@0.1.9:
+    resolution: {integrity: sha512-+ViZc0SKnFKq5eShSmk37L3GlWzIPlxj9HcSqPRobGc4tXbEQ4Y78mSohHxzPF3WmqJdYpqW2Oc5/zGoSroaKA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/helper-module-imports': 7.22.15
