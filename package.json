@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "@bablr/boot": "0.1.9",
-    "@bablr/boot-helpers": "0.1.3",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {

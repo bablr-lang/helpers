@@ -8,9 +8,6 @@ dependencies:
   '@bablr/boot':
     specifier: 0.1.9
     version: 0.1.9
-  '@bablr/boot-helpers':
-    specifier: 0.1.3
-    version: 0.1.3
   iter-tools-es:
     specifier: ^7.5.3
     version: 7.5.3
@@ -456,11 +453,6 @@ packages:
 
   /@bablr/boot-helpers@0.1.2:
     resolution: {integrity: sha512-v0QAMuaQJgYsclldRG9hsJFHPw7YJb0JVP2g4cL30N0T/AmNrUfqj/jwf+kMUl6lVSHIZNPc8pwMAVXPC2niFg==}
-    engines: {node: '>=12.0.0'}
-    dev: false
-
-  /@bablr/boot-helpers@0.1.3:
-    resolution: {integrity: sha512-RrIVJqmQHH0ka0ZzdFG84bXskJVRZ3DBM82l5mN3orhbkbEuGUKVWJ+vKtIKOskrRcqhWCtd588BbZdZQG9/TQ==}
     engines: {node: '>=12.0.0'}
     dev: false
 
