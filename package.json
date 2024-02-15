@@ -25,7 +25,7 @@
     "clean": "rm lib/productions.generated.js"
   },
   "dependencies": {
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#3eb4dcf98ece6168eebf612c8fe8cef59c607f22",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.23.0",
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@babel/runtime": "^7.23.2",
-    "@bablr/boot": "github:bablr-lang/boot#5f849d6dcd7b1e85bd46484f72cd9c77ef222f44",
+    "@bablr/boot": "github:bablr-lang/boot#64184e83c8ef575d7e9bcf2b5417f585382ce09a",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
