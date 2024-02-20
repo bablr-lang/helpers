@@ -15,6 +15,7 @@
     "./path": "./lib/path.js",
     "./productions": "./lib/productions.generated.js",
     "./shorthand": "./lib/shorthand.js",
+    "./source": "./lib/source.js",
     "./symbols": "./lib/symbols.js",
     "./token": "./lib/token.js",
     "./trivia": "./lib/trivia.js"
