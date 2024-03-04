@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786",
+    "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
