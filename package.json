@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@bablr/language_enhancer-debug-log": "github:bablr-lang/language_enhancer-debug-log#f7a80169289df525c2babe9c504acf6c979c279e",
-    "@bablr/strategy_enhancer-debug-log": "github:bablr-lang/strategy_enhancer-debug-log#26812a5201c177776bc2449297794b595246e789",
+    "@bablr/strategy_enhancer-debug-log": "github:bablr-lang/strategy_enhancer-debug-log#28a8566e3f446dc995a95ac03c4a3608d76e6b60",
     "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#06c2deeda4804fcb6a5022cf2db677f8e89eb249",
     "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#7236964708edb1ba2f596f1c0d0abb11b961e70f",
     "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d",
