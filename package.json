@@ -25,10 +25,10 @@
     "clean": "rm lib/productions.generated.js"
   },
   "dependencies": {
-    "@bablr/language_enhancer-debug-log": "github:bablr-lang/language_enhancer-debug-log#e91637e6df41ff184f692d017b242820245e6fae",
-    "@bablr/strategy_enhancer-debug-log": "github:bablr-lang/strategy_enhancer-debug-log#348cdff9c11d69130eb0dca514940339d0dee243",
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#f0c2037f94137cd56fc4f3131756b6ef6f079649",
-    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#1f880965b61bf36fd75496b8f2f7c7a90bf978d1",
+    "@bablr/language_enhancer-debug-log": "github:bablr-lang/language_enhancer-debug-log#32a02c99addb2428d2d725988faf36dfcb72c06a",
+    "@bablr/strategy_enhancer-debug-log": "github:bablr-lang/strategy_enhancer-debug-log#26812a5201c177776bc2449297794b595246e789",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#06c2deeda4804fcb6a5022cf2db677f8e89eb249",
+    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#7236964708edb1ba2f596f1c0d0abb11b961e70f",
     "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d",
     "iter-tools-es": "^7.5.3"
   },
@@ -39,7 +39,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.23.0",
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@babel/runtime": "^7.23.2",
-    "@bablr/boot": "github:bablr-lang/boot#6ed67425051000297632019a4e249fc0eb2da975",
+    "@bablr/boot": "github:bablr-lang/boot#e62754a310fa404e2efdc96176a1b8641c99a6d2",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#d834ccc52795d6c3b96ecc6c419960fceed221a6",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
