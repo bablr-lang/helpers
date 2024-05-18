@@ -39,7 +39,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.23.0",
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@babel/runtime": "^7.23.2",
-    "@bablr/boot": "github:bablr-lang/boot#de245b2262eb69b64a4be5edbb621b93e2b1e65e",
+    "@bablr/boot": "github:bablr-lang/boot#7667feb1c9ce0fea1358a854c1dd05b4affd985a",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#d834ccc52795d6c3b96ecc6c419960fceed221a6",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
