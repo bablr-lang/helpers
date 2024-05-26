@@ -21,8 +21,9 @@
   },
   "sideEffects": false,
   "scripts": {
-    "generate": "babel lib/productions.js --out-file lib/productions.generated.js",
-    "clean": "rm lib/productions.generated.js"
+    "build": "macrome build",
+    "watch": "macrome watch",
+    "clean": "macrome clean"
   },
   "dependencies": {
     "@bablr/language_enhancer-debug-log": "0.2.0",
@@ -41,6 +42,8 @@
     "@babel/runtime": "^7.23.2",
     "@bablr/boot": "0.2.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#d834ccc52795d6c3b96ecc6c419960fceed221a6",
+    "@bablr/macrome": "0.1.0",
+    "@bablr/macrome-generator-bablr": "0.1.1",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^7.32.0",
