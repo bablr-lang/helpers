@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  generators: [['@bablr/macrome-generator-bablr', { include: 'lib/productions.js' }]],
+  generators: ['@bablr/macrome-generator-bablr'],
 };
