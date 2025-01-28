@@ -8,6 +8,7 @@
     "lib"
   ],
   "exports": {
+    "./builders": "./lib/builders.js",
     "./decorators": "./lib/decorators.js",
     "./enhancers": "./lib/enhancers.js",
     "./grammar": "./lib/grammar.js",
@@ -19,7 +20,8 @@
     "./stream": "./lib/stream.js",
     "./symbols": "./lib/symbols.js",
     "./tree": "./lib/tree.js",
-    "./trivia": "./lib/trivia.js"
+    "./trivia": "./lib/trivia.js",
+    ".": "./lib/index.js"
   },
   "sideEffects": false,
   "scripts": {
