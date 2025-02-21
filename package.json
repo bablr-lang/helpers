@@ -39,7 +39,7 @@
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
-    "@bablr/boot": "^0.6.0",
+    "@bablr/boot": "^0.7.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#d834ccc52795d6c3b96ecc6c419960fceed221a6",
     "@bablr/macrome": "0.1.3",
     "@bablr/macrome-generator-bablr": "0.3.2",
